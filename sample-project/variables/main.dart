@@ -41,4 +41,18 @@ void main() {
   changable = 2.3;
 
   print(changable);
+
+  // constants are variables that cannot change
+
+  const PI = 3.14; // type is inferrred
+  final int something;
+
+  something = 7;
+
+  print(PI);
+  print(something);
+
+  final currentDay = DateTime.now().toUtc().toString();
+
+  print(currentDay);
 }
