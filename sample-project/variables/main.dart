@@ -22,6 +22,8 @@ void main() {
 
   List prices = [12, 10, 32];
 
+  bool doILoveDart = true;
+
   print(number);
   print(price);
 
@@ -29,4 +31,14 @@ void main() {
   print(name);
 
   print(prices);
+  print(doILoveDart);
+
+  // Type safety  allows us to use only one type in a particular variable
+  var weight = 3.14; // type is infered from the assignmenet
+  print(weight);
+
+  dynamic changable = true;
+  changable = 2.3;
+
+  print(changable);
 }
