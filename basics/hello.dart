@@ -1,3 +1,4 @@
 void main() {
-  print("Hello world");
+  String name = "Kosi";
+  print("Hello, ${name}");
 }
